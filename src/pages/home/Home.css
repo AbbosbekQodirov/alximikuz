@@ -157,7 +157,7 @@
   width: 200px;
   height: 250px;
   border-radius: 13px;
-  background: url("../../public/assets/imgs/cardbg.png") ;
+  background: url("../assets/imgs/cardbg.png") ;
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
