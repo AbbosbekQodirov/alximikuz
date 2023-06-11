@@ -1,0 +1,100 @@
+.partner_page {
+  background-color: rgb(241,241,241);
+}
+.partner_hero {
+  min-height: 100vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.partner_hero h1 {
+  font-size: 60px;
+  color: #002940;
+  margin-bottom: 180px;
+  padding-top: 100px;
+}
+
+.partner_btn{
+    color: white;
+    padding: 15px 30px;
+    letter-spacing: 1px;
+}
+
+.partner_hero img{
+    width: 700px;
+}
+
+.partner_btns{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 60px;
+}
+.partner_btns .btn{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 30px;
+    letter-spacing: 1px;
+}
+.partner_btns .btn:nth-child(2){
+    background-color: #1AB800;
+}
+.partner_form{
+    display: flex;
+    justify-content: space-between;
+    color: #002940;
+    padding-bottom: 100px;
+    margin-top: 60px;
+}
+.partner_form div{
+    width: 600px;
+}
+.partner_form h3{
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+.partner_form p{
+    line-height: 30px;
+}
+.partner_form div form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.partner_form div form label{
+    width: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.partner_form div form label select, .partner_form div form label input{
+    width: 100%;
+    background-color: #D9D9D9;
+    font-size: 18px;
+    padding: 14px 10px;
+    color: #002940;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.partner_form div form label input::placeholder{
+    color: #002940;
+}
+.partner_form button{
+    display: block;
+    /* width: 0px; */
+    color: white;
+    margin-left: auto;
+    margin-top: 40px;
+    padding: 15px 40px;
+    font-size: 18px;
+}

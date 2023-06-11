@@ -1,0 +1,20 @@
+.products_page{
+    background-color: rgb(241,241,241);
+}
+
+.products_page .cards_items{
+    text-align: center;
+}
+.products_filter{
+    display: flex;
+    gap: 30px;
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.588);
+    align-items: center;
+    padding-left: 50px;
+}
+.products_filter li.active{
+    color: black;
+    font-weight: bold;
+    font-size: 33px;
+}

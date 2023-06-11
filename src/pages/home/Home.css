@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+.hero_containner {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  align-items: center;
+  padding-bottom: 70px;
+}
+.home_page {
+  background-color: rgb(241, 241, 241);
+}
+.hero_info {
+  max-width: 600px;
+}
+.hero_info h2 {
+  color: #002940;
+  font-size: 50px;
+  font-weight: 600;
+  font-style: bold;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 40px;
+  line-height: 65px;
+}
+.hero_info p {
+  margin-bottom: 50px;
+  font-size: 18px;
+  color: #002940c5;
+}
+
+.hero_img {
+  padding-top: 40px;
+}
+
+.hero_img img {
+  width: 320px;
+}
+
+.products {
+  text-align: center;
+}
+.title {
+  text-align: center;
+  color: #002940;
+  font-size: 40px;
+  padding: 15px;
+  font-weight: bold;
+}
+.products>h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #002940e9;
+}
+.products h3 span {
+  font-weight: 700;
+  color: #002940;
+}
+.cards_one {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+.cards_one .card {
+  background-color: white;
+  /* width: 240px; */
+  border-radius: 10px;
+  padding: 20px 25px;
+  transition: .3s ease;
+}
+
+.cards_one .card img{
+  width: 70%;
+  margin: 0 auto;
+  transition: .3s ease;
+
+}
+.cards_one .card h4{
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 25px;
+}
+.cards_one .card:hover{
+  transform: scale(1.1);
+}
+
+.cards_one .card:hover img{
+  transform: scale(1.1);
+}
+.news{
+  width: 1200px !important;
+  text-align: center;
+}
+.news img{
+  width: 80%;
+  margin-top: 40px;
+}
+.news h3{
+  color: #002940;
+  margin: 20px;
+  font-size: 26px;
+}
+.news p{
+  line-height: 30px;
+}
+.news .btn{
+  font-size: 20px;
+  padding: 10px 60px;
+  margin: 40px;
+  color: white;
+}
+
+.filter {
+  display: flex;
+  width: 400px;
+  margin: 0 auto;
+  justify-content: center;
+  position: relative;
+}
+.filter::after {
+  content: "";
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #00294079;
+}
+.filter::before {
+  content: "";
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 50%;
+  height: 2px;
+  background-color: #002940;
+}
+.filter div {
+  text-align: center;
+  width: 50%;
+  padding: 8px;
+  font-size: 20px;
+}
+
+.cards_items{
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  flex-wrap: wrap;
+  padding: 50px 0px;
+}
+
+.cards_items .item > div:nth-child(1){
+  width: 200px;
+  height: 250px;
+  border-radius: 13px;
+  background: url("../../public/assets/imgs/cardbg.png") ;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  cursor: pointer;
+  overflow: hidden;
+} 
+.cards_items .item h3{
+  margin: 10px 0px;
+  color: #002940 !important;
+}
+.cards_items .item p{
+  color: #002940 !important;
+}
+.cards_two .btn{
+  color: white;
+  padding: 11px 55px;
+  font-size: 18px;
+}
+.discount{
+  margin-top: 100px;
+  background-color: white;
+  border-radius: 40px;
+  /* padding: 40px; */
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+.discount div{
+  max-width: 580px;
+}
+.discount img{
+  width: 580px;
+}
+
+.discount div h3{
+  color: #000AFF;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 10px 0px;
+}
+.discount div h2{
+font-size: 44px;
+color: #002940;
+}
+.discount div p{
+  margin: 10px 0px;
+  margin-bottom: 30px;
+}
+.discount div p, .discount div ul{
+color: #002940;
+}
+.discount div ul{
+  margin-bottom: 50px;
+}
+.discount div ul li{
+  margin: 20px 0px;
+  display: flex;
+  gap: 25px;
+}
+
+.discount div ul li img{
+  width: 10px;
+}
+.discount div .btn{
+  padding: 10px 40px;
+  font-size: 12px;
+  border-radius: 5px;
+  letter-spacing: .6px;
+}
+.custom_container{
+  margin-bottom: 60px;
+}
+.customers{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.customer{
+  width: 200px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  transition: .3s ease;
+}
+.customer:hover{
+  transform: scale(1.1);
+}
+.user{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.user img{
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+  border-radius: 19px;
+}
+.user h4{
+  font-size: 14px;
+}
+.user p{
+  font-size: 9px;
+}
+.customer>p{
+  font-size: 11px;
+  margin-bottom: 40px;
+}
+.customer h5{
+  font-weight: 500;
+}
+.custom_btn{
+  width: 200px;
+  margin: 0 auto !important;
+  background-color: #002940;
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+  border-radius: 8px;
+}
+.partners{
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.partners img{
+  width: 80%;
+}
+.explanation{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;  
+  gap: 40px;
+  margin-top: 40px;
+}
+.explanation>div{
+  width: 250px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.explanation>div>div{
+  overflow: hidden;
+  transition: .4s ease;
+}
+
+.explanation>div:hover img{
+  transform: scale(1.2);
+  transform-origin: top center;
+}
+.explanation>div:hover .user_img{
+   filter: blur(1px);
+   box-shadow: 0px 0px 20px 5px #001927;
+}
+
+.explanation>div:hover .user_info h3{
+  margin-top: -50px;
+}
+.explanation_container{
+  padding-bottom: 110px;
+
+}
+.explanation_container .btn{
+  width: 200px !important;
+  color: white;
+  font-size: 18px;
+  padding: 12px 60px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+
+.explanation>div img{
+  width: 100%;
+  display: flex;
+  transition: all .4s ease;
+}
+.user_info {
+  height: 50px;
+  padding: 10px;
+  overflow: hidden;
+}
+.user_info h3{
+  width: 100%;
+  width: 100%;
+  text-align: center !important;
+  /* position: absolute; */
+  font-size: 21px;
+  color: #002940;
+  transition: all .4s ease-in-out;
+}

@@ -1,0 +1,125 @@
+.news_page {
+  text-align: center;
+  padding-top: 50px;
+  background-color: rgb(241, 241, 241);
+  padding-bottom: 50px;
+}
+.newsLogo {
+  width: 250px;
+}
+.news{
+  text-align: center;
+  margin: 0 auto;
+}
+.news img{
+  width: 80%;
+}
+.achievements {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+.achieve {
+  width: 250px;
+  border-radius: 22px;
+  overflow: hidden;
+  background-color: rgb(0, 41, 64);
+  color: white;
+  padding-bottom: 12px;
+}
+.achieve:hover .achieve_img img {
+  transform: scale(1.2);
+}
+.achieve_img {
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.achieve_img img {
+  width: 100%;
+  transition: all 0.5s ease;
+}
+.achieve h4 {
+  font-weight: 400;
+  text-align: left;
+  margin-left: 20px;
+  line-height: 50px;
+  font-size: 16px;
+}
+.achieve a {
+  color: #f2ce9a;
+  text-decoration: underline;
+}
+.manual {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+  text-align: left;
+  padding: 0px 50px;
+  padding-top: 50px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.manual h1,
+.manual p {
+  max-width: 600px;
+  color: #002940;
+}
+.manual h1 {
+  font-size: 50px;
+  line-height: 70px;
+  margin-bottom: 40px;
+}
+.manual p {
+  font-size: 12px;
+  line-height: 23px;
+  margin-bottom: 70px;
+}
+.manual_info{
+    padding-bottom: 100px;
+}
+.manual .btn {
+  font-size: 20px;
+  padding: 14px 60px;
+}
+.manual_img img{
+    width: 500px;
+}
+.news_social{
+  max-width: 250px;
+  background-color: white;
+  padding: 10px 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+.news_social a{
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 29px;
+  line-height: 0px;
+}
+
+.news_social a:nth-child(1){
+  background: linear-gradient(0deg, rgb(0,92,208), rgb(25,170,253)) !important;
+}
+
+.news_social a:nth-child(2){
+  background: linear-gradient(130deg, rgb(10,145,251), rgb(157,49,192),  rgb(254,231,0), rgb(254,231,0));
+}
+
+.news_social a:nth-child(3){
+  background: rgb(47,161,224)
+}

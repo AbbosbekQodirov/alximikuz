@@ -1,0 +1,104 @@
+.career_page {
+  background-color: rgb(235, 235, 235);
+}
+.career_hero {
+  min-height: 100vh;
+  background-image: url("../../../public/assets/imgs/careerbg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 80px;
+}
+.career_hero img {
+  width: 380px;
+  margin: 80px 0px;
+}
+
+.career_hero h1 {
+  font-size: 60px;
+  color: #002940;
+  margin-bottom: 80px;
+}
+.btns {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 0 auto;
+}
+.btns img {
+  width: 65px !important;
+}
+
+.career_form {
+  width: 64%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.career_form label {
+  width: 400px !important;
+  margin-bottom: 20px;
+}
+.career_form input,
+.career_form select, .career_form textarea {
+  width: 100% !important;
+  background-color: rgb(217, 217, 217);
+  font-size: 20px;
+  padding: 15px 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-top: 8px;
+}
+.jobs {
+  display: flex;
+  flex-direction: column;
+  width: 600px !important;
+  margin: 0 auto !important;
+  margin-bottom: 20px !important;
+}
+.career_form h4 {
+  text-align: left;
+  color: #002940;
+}
+.data {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.data div{
+  width: 46%;
+}
+.data div label{
+  width: 100% !important;
+}
+.data div {
+  display: flex;
+  flex-direction: column;
+}
+select{
+  cursor: pointer;
+}
+.form_btn{
+  padding: 12px 50px;
+  color: white;
+  font-size: 18px;
+}
+#create_img{
+  display: block;
+  text-align: center;
+  width: 130px !important;
+  padding: 10px 0px;
+  color: white;
+  margin-left: auto;
+  font-size: 22px;
+  background-color: #002940;
+  border-radius: 10px;
+}
+#create_img input{
+  display: none;
+}
+.team_img{
+  width: 400px !important;
+}
