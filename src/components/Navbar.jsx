@@ -7,6 +7,7 @@ function Navbar() {
   const [showBtn, setShowbnt] = useState(false);
 
   window.addEventListener("scroll", () => {
+    console.log(window.scrollY);
     if (window.scrollY > 155) {
       setShowbnt(true);
     } else {
